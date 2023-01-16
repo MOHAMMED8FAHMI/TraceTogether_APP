@@ -13,13 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTrace"
         tools:targetApi="31">
+
         <activity
             android:name=".Application.Login.Login"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+            android:exported="false">
+
 
         </activity>
         <activity
@@ -48,7 +46,12 @@
         <activity android:name=".Application.Profile.User_Details"
             android:exported="false"/>
         <activity android:name=".Application.Profile.Change_Language"
-            android:exported="false"/>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".Application.Profile.Change_Password"
             android:exported="false"/>
         <activity android:name=".Application.Profile.ChangeID_page"
