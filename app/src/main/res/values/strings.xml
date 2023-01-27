@@ -3,6 +3,25 @@
 
     <string name="email" translatable="false">Email</string>
     <string name="password" translatable="false">Password</string>
+ mybranch
+    <string name="btn_login" translatable="false">Login</string>
+    <string name="Spinner" translatable="false">spinner</string>
+    <string name="_usertype" translatable="false">Usertype</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="btn_add_dependent" translatable="false">Add Dependent</string>
+    <string name="btn_register" translatable="false">Register</string>
+    <string name="user_name_rg" translatable="false">User Name</string>
+    <string name="full_name_rg" translatable="false">Full name</string>
+    <string name="nric_passport_rg" translatable="false">NRIC/Passport</string>
+    <string name="email_address_rg" translatable="false">Email/PhoneNum</string>
+    <string name="age_rg" translatable="false">Age</string>
+    <string name="Password_rg" translatable="false">Password</string>
+    <string name="Re_enter_password_rg" translatable="false"> Re-enter password</string>
+    <string name="enter_otp_number_rg1" translatable="false">Enter OTP number</string>
+    <string name="btn_next_rg_page2" translatable="false">NEXT</string>
+    <string name="submit_rg" translatable="false">Submit</string>
+    <string name="savebtn_tgr_id" translatable="false">Save</string>
+
     <string name="btn_login">Login</string>
     <string name="Spinner">spinner</string>
     <string name="_usertype">Usertype</string>
@@ -20,9 +39,14 @@
     <string name="btn_next_rg_page2">NEXT</string>
     <string name="submit_rg">Submit</string>
     <string name="savebtn_tgr_id">Save</string>
+ master
     <string name="english_language">English</string>
     <string name="malay_language">Malay</string>
-    <string name="username_personal">SALEH AHMED BIN SALEH</string>
+    <string name="Select_Language">Select Language</string>
+    <string name="username_personal" translatable="false">SALEH AHMED BIN SALEH</string>
+    <string name="to_english">Successfully changed language to English</string>
+    <string name="titlePage">Change Language</string>
+
 
     <string-array name="usertype">
         <item>user</item>

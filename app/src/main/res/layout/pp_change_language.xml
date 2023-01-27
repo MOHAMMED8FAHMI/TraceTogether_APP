@@ -6,15 +6,20 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".Application.Profile.Change_Language"
+ mybranch
+    android:orientation="vertical"
+    android:padding="16dp">
+
 
     >
+ master
 
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/tv_change_lan"
         android:layout_width="173dp"
         android:layout_height="36dp"
-        android:text="Change Language"
+        android:text="@string/titlePage"
         android:textColor="#F8F8F8"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -55,10 +60,17 @@
 
 
         <TextView
+ mybranch
+            android:id="@+id/tvselect"
+            android:layout_width="185dp"
+            android:layout_height="51dp"
+            android:text="@string/Select_Language"
+
             android:id="@+id/textView26"
             android:layout_width="188dp"
             android:layout_height="27dp"
             android:text="Select Language"
+ master
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="20sp"
@@ -70,6 +82,55 @@
             app:layout_constraintVertical_bias="0.107" />
         <!--
 
+ mybranch
+        <RadioGroup
+            android:id="@+id/rg_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tv_output"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvselect">
+
+            <RadioButton
+                android:id="@+id/rb_malay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/malay_language"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.787"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.365" />
+
+            <RadioButton
+                android:id="@+id/rb_english"
+                android:layout_width="82dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/english_language"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.221"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.365" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_output"
+            android:text="@string/to_english"
+=======
         <com.google.android.material.textfield.TextInputLayout
 
             android:id="@+id/textInputLayout"
@@ -81,6 +142,7 @@
 
 
             android:hint="@string/select"
+ master
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -105,3 +167,8 @@
 
 
 
+ mybranch
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+ master

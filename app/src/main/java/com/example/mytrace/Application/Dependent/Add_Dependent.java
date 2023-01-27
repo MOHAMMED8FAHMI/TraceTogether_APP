@@ -48,6 +48,7 @@ public class Add_Dependent extends AppCompatActivity {
         setContentView(R.layout.add_dependent);
 
 
+
         firebaseDatabase = FirebaseDatabase.getInstance();
 
         citizen=(Spinner)findViewById(R.id.citizen) ;
@@ -64,6 +65,7 @@ public class Add_Dependent extends AppCompatActivity {
 
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("Add_dependent_Db");
+
 
         Add_Depen_button=(Button)findViewById(R.id.reset_button) ;
 
