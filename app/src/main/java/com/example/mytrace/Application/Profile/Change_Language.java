@@ -17,13 +17,19 @@ import java.util.Locale;
 
 
 public class Change_Language extends AppCompatActivity {
+
     TextView tvSelect, tvOutput, tv_changelan;
     RadioGroup rgLanguage;
     RadioButton rbEnglish, rbMalay;
 
+
+    String[] item ={"M","Design","Component" ,"5.0 Lollipop"};
+
+
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pp_change_language);
+
 
         //Assign variable
         tvSelect = findViewById(R.id.tvselect);
@@ -76,3 +82,7 @@ public class Change_Language extends AppCompatActivity {
 
     }
 }
+
+
+}}
+

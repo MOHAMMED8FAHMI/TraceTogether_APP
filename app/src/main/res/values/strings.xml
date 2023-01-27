@@ -3,6 +3,7 @@
 
     <string name="email" translatable="false">Email</string>
     <string name="password" translatable="false">Password</string>
+ mybranch
     <string name="btn_login" translatable="false">Login</string>
     <string name="Spinner" translatable="false">spinner</string>
     <string name="_usertype" translatable="false">Usertype</string>
@@ -20,6 +21,25 @@
     <string name="btn_next_rg_page2" translatable="false">NEXT</string>
     <string name="submit_rg" translatable="false">Submit</string>
     <string name="savebtn_tgr_id" translatable="false">Save</string>
+
+    <string name="btn_login">Login</string>
+    <string name="Spinner">spinner</string>
+    <string name="_usertype">Usertype</string>
+    <string name="todo">TODO</string>
+    <string name="btn_add_dependent">Add Dependent</string>
+    <string name="btn_register">Register</string>
+    <string name="user_name_rg">User Name</string>
+    <string name="full_name_rg">Full name</string>
+    <string name="nric_passport_rg">NRIC/Passport</string>
+    <string name="email_address_rg">Email</string>
+    <string name="age_rg">Age</string>
+    <string name="Password_rg">Password</string>
+    <string name="Re_enter_password_rg">Re-enter password</string>
+    <string name="enter_otp_number_rg1">Enter OTP number</string>
+    <string name="btn_next_rg_page2">NEXT</string>
+    <string name="submit_rg">Submit</string>
+    <string name="savebtn_tgr_id">Save</string>
+ master
     <string name="english_language">English</string>
     <string name="malay_language">Malay</string>
     <string name="Select_Language">Select Language</string>
@@ -35,6 +55,16 @@
 
 
     </string-array>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="select">select</string>
 
 </resources>
 
